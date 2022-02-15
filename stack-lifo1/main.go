@@ -23,6 +23,7 @@ func (s *stack) push(s1 string) {
 func (s *stack) pop() {
 	if len(*s) == 0 {
 		fmt.Println("Empty list")
+		return
 	}
 	*s = (*s)[:len(*s)-1]
 }
