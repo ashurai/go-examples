@@ -9,7 +9,7 @@ func main() {
 	s.push("My")
 	s.push("name")
 	s.push("is")
-	s.push("Ankita")
+	s.push("Ashutosh")
 
 	fmt.Println(s)
 	result := s.pop()
